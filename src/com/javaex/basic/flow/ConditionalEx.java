@@ -9,10 +9,10 @@ public class ConditionalEx {
 //			ifEx2();
 //			ifPractice01();
 //			switchEx();
-//			switchEx2();
+			switchEx2();
 //			switchpractice();
-			ifEx3();
-			
+//			ifEx3();
+//			switchEX3();
 		}
 
 		private static void ifEx() {
@@ -203,13 +203,16 @@ public class ConditionalEx {
 		
 		int unm = scanner.nextInt();
 		
-		if (unm == %3) {
+		if (unm % 3 == 0) {
 			System.out.println("3의 배수입니다.");
+		} else {
+			System.out.print("3의 배수가 아닙니다.");
 		}
-		else {
-			System.out.println ("3의 배수가 아닙니다.");
-			}
+		
 		scanner.close();
+	}
+	
+	private static void switchEx3() {
 		
 	}
 }

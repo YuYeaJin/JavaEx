@@ -78,10 +78,9 @@ public class LoopEx {
 		
 		int dan = scanner.nextInt();
 		
-		for (int i = 1;	// 반복 변수 초기화
-				i <= 9;	// 반복 조건 체크
+		for (int i = 1;	// 반복 변수 초기화 
+				i <= 9;	// 반복 조건 체크 
 				++i) {System.out.println(dan + "*" + i + "=" + (dan*i));
-				
 		}
 		scanner.close();
 		}
