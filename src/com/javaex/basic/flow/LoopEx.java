@@ -7,7 +7,8 @@ public class LoopEx {
 	public static void main(String[] args) {
 //		whileEx();
 //		whileGugu();
-		dowhileEx();
+//		dowhileEx();
+		forGugu();
 
 	}
 
@@ -65,6 +66,23 @@ public class LoopEx {
 		} while (value != 0);
 		
 		scanner.close();
-		
 	}
+	
+	private static void forGugu() {
+		//	단을 입력 받아 해당 단의 구구표를 출력
+		//	(for loop)
+		//	for (반복변수 초기화; 반복 조건 확인; 반복변수 증감)
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("단을 입력하세요.");
+		System.out.print("단: ");
+		
+		int dan = scanner.nextInt();
+		
+		for (int i = 1;	// 반복 변수 초기화
+				i <= 9;	// 반복 조건 체크
+				++i) {System.out.println(dan + "*" + i + "=" + (dan*i));
+				
+		}
+		scanner.close();
+		}
 }
