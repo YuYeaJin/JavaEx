@@ -11,7 +11,7 @@ public class Ex08 {
 		int j = 2;
 		int i = 1;
 		
-		while(i < 10) { if(j < 10) {
+		for(int j = 2; j<10; i +=1)  {
 			System.out.println(j + "*" + i + "=" + (j*i));
 			i +=1;
 			continue;
