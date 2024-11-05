@@ -49,5 +49,7 @@ public class StringEx {
 		System.out.printf("현재 이자율은 %f입니다.%n", interestRate);
 		System.out.printf("현재 이자율은 %.2f입니다.%n", interestRate);
 	}
+	
+	
 
 }
