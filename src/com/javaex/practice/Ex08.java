@@ -15,14 +15,7 @@ public class Ex08 {
 			System.out.println(j + "*" + i + "=" + (j*i));
 			i +=1;
 			continue;
-		}
-		System.out.println();
-		j +=1;
-		
-//		System.out.println(j + "*" + i + "=" + (j*i));
-//		j +=1;
-		
-		
+			}
 		}
 	}
 }
