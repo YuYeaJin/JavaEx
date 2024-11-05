@@ -4,8 +4,9 @@ public class EnumEx {
 
 	public static void main(String[] args) {
 	
-		usingEnum();
+//		usingEnum();
 		//	switchpractice()의 enum버전
+		switchEnumPractice();
 
 	}
 	
@@ -37,6 +38,34 @@ public class EnumEx {
 		Week otherDay = Week.FRIDAY;
 		//	TUESDAY와 FRIDAY의 순번 비교
 		System.out.println(today.compareTo(otherDay));
+	}
+	
+	private static void switchEnumPractice() {
+		//	cinditionalEx::switchPractice의 enum 버전
+		Week day = Week.TUESDAY;
+		String action;
+		
+		switch (day) {
+		case SUNDAY:
+			action = "휴식";
+			break;
+		case MONDAY:
+		case TUESDAY:
+		case WEDNESDAY:
+		case THURSDAY:
+			action = "열공";
+			break;
+		case FRIDAY:
+			action = "열공 후 불금";
+			break;
+		case SATURDAY:
+			action = "주말";
+			break;
+		default:
+			action = "어디?";
+			break;
+		}
+		System.out.println(day.name() + "에는 " + action);
 	}
 
 }
