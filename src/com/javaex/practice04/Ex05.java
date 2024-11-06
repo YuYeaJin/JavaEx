@@ -9,15 +9,16 @@ public class Ex05 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println();
 		
-//		int i = scanner.nextInt();
+		double k = scanner.nextDouble();
 		int p = 0;
 		double average = 0;
 		
-		int[] sum = new int[4];
-		for(int j = 0; j < sum.length; ++j) {
-			average = sum[i] % i;
+		int[] i = new int[5];
+		for(int j = 0; j < i.length; ++j) {
+	
+			p = p + i[j] ;
 		}
-		System.out.println("평균은 " + average + " 입니다.");
+		System.out.println(p);
 		
 
 	}
