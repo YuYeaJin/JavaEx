@@ -9,7 +9,7 @@ public class Ex05 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println();
 		
-		int i = scanner.nextInt();
+//		int i = scanner.nextInt();
 		int p = 0;
 		double average = 0;
 		
