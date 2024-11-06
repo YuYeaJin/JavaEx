@@ -24,7 +24,7 @@ public class ArrayEx {
 				"김", "이", "박", "최"
 		}; //	초기값이 있을 때
 		
-		scores = new int[4];	//	빈 배역 만들기
+		scores = new int[4];	//	빈 배열 만들기
 		//	인덱스 접근
 		//	0부터 시작
 		//	.length -1까지
