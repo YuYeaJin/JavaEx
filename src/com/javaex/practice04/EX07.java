@@ -23,6 +23,7 @@ public class EX07 {
 		
 		int[] num = new int[wonArray.length];
 		int cash = scanner.nextInt();
+		
 		for(int i = 0; i <wonArray.length; i++) {
 			if(wonArray[i] <= cash) {num[i] = cash/wonArray[i];}
 			
