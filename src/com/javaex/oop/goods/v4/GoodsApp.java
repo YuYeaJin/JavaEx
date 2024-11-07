@@ -25,7 +25,7 @@ class Goods{
 	
 //	public void setName(String name) {
 //		this.name = name;
-//		//	thus -> 현재 인스턴스 자체
+//		//	this -> 현재 인스턴스 자체
 //	}
 	
 	public int getPrice( ) {
