@@ -1,9 +1,8 @@
-package com.javaex.oop.goods.v3;
+package com.javaex.oop.goods.v4;
 
-//	Goods v3. 생성자
-//	생성자가 만들어져 있지 않으면 JVM이 기본 생성자를 끼워 넣는다.
-//	개발자가 생성자를 만들면 JVM은 기본 생성자를 끼워넣지 않는다.
-//	Setter 가 없으면 Read-Only
+//	Goods v4. this
+//	this -> 현재 인스턴스 자체를 지칭
+//	this(...) -> 현재 클래스 내부의 다른 생성자를 지칭
 
 class Goods{
 	//	필드
@@ -11,8 +10,12 @@ class Goods{
 	private int price;
 	
 	//	생성자
-	public Goods(String name, int price) {
+	public Goods(String name) {
 		this.name = name;
+	}
+	public Goods(String name, int price) {
+//		this.name = name;
+		this(name);	//다른 생성자 호출
 		this.price = price;
 	}
 	//	Getters / Setters
