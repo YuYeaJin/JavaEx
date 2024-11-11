@@ -8,6 +8,7 @@ public class ExceotionHandlingEx {
 	public static void main(String[] args) {
 //		ariehExcetionEx();
 		arrayExceptionEx();
+		nullPointerExceptionEx();
 
 	}
 	
