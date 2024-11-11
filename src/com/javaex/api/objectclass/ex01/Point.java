@@ -1,6 +1,6 @@
 package com.javaex.api.objectclass.ex01;
 
-//	object ex01
+//	object ex01 : toString()
 public class Point {
 	private int x;
 	private int y;
