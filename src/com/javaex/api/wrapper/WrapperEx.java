@@ -46,7 +46,6 @@ public class WrapperEx {
 		
 		//	언박싱 비교
 		System.out.println(i4.intValue() == i5.intValue());
-		
 		System.out.println(i4.equals(i5));
 		
 	}
