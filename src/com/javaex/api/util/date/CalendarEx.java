@@ -20,7 +20,7 @@ public class CalendarEx {
 		System.out.printf("오늘은 %d년 %d월 %d일 입니다.%n", year, month, date);
 		//	날짜 조작 : 현재 시간으로부터 10년 뒤로 슈웅~
 		Calendar future = Calendar.getInstance();
-		future.add(Calendar.YEAR, 10); 	// 10susdmf ejgksek.
+		future.add(Calendar.YEAR, 10); 	// 10년을 더한다.
 		System.out.printf( "10년 뒤: %d년 %d월 %d일 %n", future.get(Calendar.YEAR), future.get(Calendar.MONTH)+1, future.get(Calendar.DATE));
 		
 		//	이 날은 무슨 요일?
