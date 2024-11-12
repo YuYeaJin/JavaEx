@@ -11,5 +11,4 @@ public class IntegerBox {
 	public void setContent(Integer content) {
 		this.content = content;
 	}
-	
 }

@@ -1,14 +1,13 @@
 package com.javaex.api.generic;
 
 public class ObjectBox {
-	Object Content;
+	Object content;
 
-	public Object getContenr() {
-		return Content;
+	public Object getContent() {
+		return content;
 	}
 
-	public void setContenr(Object contenr) {
-		this.Content = Content;
+	public void setContent(Object content) {
+		this.content = content;
 	}
-	
 }
