@@ -38,7 +38,7 @@ public class ListEx {
 		
 		//	List와 Set는 Iterator 반복자를 사용
 		System.out.println("====== Iteraror");
-		Iterator<String> it = lst.iteraror();
+		Iterator<String> it = lst.iterator();
 		while(it.hasNext()) {
 			String item = it.next();
 			System.out.println(item);
