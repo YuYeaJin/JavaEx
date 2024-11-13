@@ -1,6 +1,7 @@
 package com.javaex.collection.list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListEx {
@@ -35,7 +36,14 @@ public class ListEx {
 		//	요소 개수 확인
 		System.out.println("size=" + lst.size());
 		
-		//	TODO : 리스트의 순회
+		//	List와 Set는 Iterator 반복자를 사용
+		System.out.println("====== Iteraror");
+		Iterator<String> it = lst.iteraror();
+		while(it.hasNext()) {
+			String item = it.next();
+			System.out.println(item);
+		}
+		
 		//	리스트 비우기
 		lst.clear();
 		System.out.println(lst);
