@@ -59,7 +59,7 @@ public class FileClassEx {
 				System.out.print(f.canExecute() ? "x": ".");
 				
 				System.out.print(" " + f.getName() + "\t");
-				System.out.println(file.length());
+				System.out.println(files.length());
 			}
 		
 	}
