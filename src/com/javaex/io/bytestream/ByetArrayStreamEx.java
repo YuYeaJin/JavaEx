@@ -30,6 +30,7 @@ public class ByetArrayStreamEx {
 				bos.write(data);
 			}
 			
+			
 			outSrc = ((ByteArrayOutputStream)bos).toByteArray();
 			//	다운캐스팅 후 배열로 변환 작업 수행
 			System.out.println(Arrays.toString(outSrc));
