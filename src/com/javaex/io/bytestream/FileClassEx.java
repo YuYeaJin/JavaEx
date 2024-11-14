@@ -13,12 +13,12 @@ public class FileClassEx {
 		//	이 파일은 존재하는가?
 		System.out.println(rootPath + ":" + root.exists());
 		
-		if (!root.exists()) {	//	존재하지 않으면
-			root.mkdirs(); // 디렉터리 생성
-			System.out.println(rootPath + "를 생성했습니다.");
-		} else {
-			System.out.println(rootPath + "는 이미 있는 디렉터리입니다.");
-		}
+//		if (!root.exists()) {	//	존재하지 않으면
+//			root.mkdirs(); // 디렉터리 생성
+//			System.out.println(rootPath + "를 생성했습니다.");
+//		} else {
+//			System.out.println(rootPath + "는 이미 있는 디렉터리입니다.");
+//		}
 		
 		File subdir = new File(rootPath + "subder");
 		if (!subdir.exists()) {	//	존재하지 않으면
@@ -36,12 +36,12 @@ public class FileClassEx {
 			} catch (IOException e) {
 				System.out.println("파일을 만들지 못했어요.");
 			}
-			
+		}
 			//파일 지우기
 			file.delete();
 			
 			printInfo(root);
-		
+	}
 		
 		private static void printInfo(File f) {
 			System.out.println("-----------");
@@ -59,7 +59,7 @@ public class FileClassEx {
 				System.out.print(f.canExecute() ? "x": ".");
 				
 				System.out.print(" " + f.getName() + "\t");
-				System.out.println(files.length());
+				System.out.println(f.length());
 			}
 		
 	}
